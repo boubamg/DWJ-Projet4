@@ -272,16 +272,6 @@ a:hover {
     margin-top: 80px;
 }
 
-.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-}
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -824,6 +814,15 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+/* ----------- FOOTER ---------- */
+
+footer .row {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* ----------- MEDIA QUERIES ----------- */
 
 @media (max-width: 1024px) {
     .bloc {
