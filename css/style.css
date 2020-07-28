@@ -65,6 +65,12 @@ a:hover {
     cursor: pointer;
 }
 
+.img-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* ------------------------ IMAGE BACKGROUND ------------------------- */
 
 .bg-dots-bg {
@@ -798,11 +804,6 @@ a[data-lightbox]:hover img {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-#contact h2 {
-    color: #FFF!important;
-    font-weight: bold;
 }
 
 /* -------------------------- FOOTER --------------------------- */
