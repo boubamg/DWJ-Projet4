@@ -562,12 +562,14 @@ nav .caret {
     bottom: 20px;
     right: 20px;
     opacity: 0;
+    background-color: black;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    color: white;
 }
 
 .showScrollTop {
