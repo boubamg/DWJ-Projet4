@@ -800,6 +800,11 @@ a[data-lightbox]:hover img {
     border-color: #364577!important;
 }
 
+#contact h2 {
+    color: #FFF!important;
+    font-weight: bold;
+}
+
 /* -------------------------- FOOTER --------------------------- */
 
 footer .row {
